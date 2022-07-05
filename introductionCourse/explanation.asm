@@ -10,9 +10,9 @@ section .text
     ; main
 
 ; Compiling nasm 
-    ; nasm ;f elf64 file.asm ;> file.o
+    ; nasm ;f elf64 file.asm -> file.o
     ; Getting the file.o and converting it to executable
-    ; ld ;m elf_i386 ;o file file.o
+    ; ld -m elf_i386 -o file file.o
 
 
 ; registers: hardware implemented variables
